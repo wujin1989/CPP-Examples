@@ -18,12 +18,16 @@ set(SRCS
 	example-base/example-base-variant.cpp
 	example-base/example-base-friend.cpp
 	example-base/example-base-new.cpp
+	example-base/example-base-uniform_initialization.cpp
 	example-templete/example-templete-function.cpp
 	example-templete/example-templete-member-function.cpp
 	example-templete/example-templete-class.cpp
 	example-templete/example-templete-explicit-instantiation.cpp
 	example-templete/example-templete-explicit-specialization.cpp
 	example-class/example-class-move-constructor.cpp
+	example-class/example-class-copy-constructor.cpp
+	example-class/example-class-delegate-constructor.cpp
+	example-class/example-class-inheriting-constructor.cpp
 )
 
 add_executable(CPP-Examples ${SRCS})

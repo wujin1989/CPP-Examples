@@ -10,6 +10,10 @@
 #include "example-templete/example-templete-member-function.h"
 #include "example-base/example-base-new.h"
 #include "example-class/example-class-move-constructor.h"
+#include "example-base/example-base-uniform_initialization.h"
+#include "example-class/example-class-copy-constructor.h"
+#include "example-class/example-class-delegate-constructor.h"
+#include "example-class/example-class-inheriting-constructor.h"
 
 using namespace std;
 
@@ -33,6 +37,15 @@ int main()
 	//runExampleTempleteMemberFunction01();
 	//runExampleBaseNew01();
 	//runExampleBaseNew02();
-	runExampleClassMoveConstructor01();
+	//runExampleClassMoveConstructor01();
+	//runExampleClassMoveConstructor02();
+	runExampleClassMoveConstructor03();
+	//runExampleBaseUniformInitialization01();
+	//runExampleBaseUniformInitialization02();
+	//runExampleBaseUniformInitialization03();
+	//runExampleClassCopyConstructor01();
+	//runExampleClassDelegateConstructor01();
+	//runExampleClassInheritingConstructor01();
+	//runExampleClassInheritingConstructor02();
 	return 0;
 }
