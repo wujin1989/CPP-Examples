@@ -92,6 +92,7 @@ void runExampleClassMoveConstructor01(void) {
 
 void runExampleClassMoveConstructor02(void) {
 	//如果没有显式的移动构造函数，则原本使用移动构造函数的操作会改用复制构造函数。
+	//拷贝构造函数的参数是 const 的左值引用，既能接受左值也能接受右值
 	ExampleClassMoveConstructor::B b(std::move(ExampleClassMoveConstructor::getB()));
 }
 

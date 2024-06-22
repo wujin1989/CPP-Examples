@@ -14,6 +14,8 @@
 #include "example-class/example-class-copy-constructor.h"
 #include "example-class/example-class-delegate-constructor.h"
 #include "example-class/example-class-inheriting-constructor.h"
+#include "example-class/example-class-destructor.h"
+#include "example-base/example-base-reference.h"
 
 using namespace std;
 
@@ -39,7 +41,7 @@ int main()
 	//runExampleBaseNew02();
 	//runExampleClassMoveConstructor01();
 	//runExampleClassMoveConstructor02();
-	runExampleClassMoveConstructor03();
+	//runExampleClassMoveConstructor03();
 	//runExampleBaseUniformInitialization01();
 	//runExampleBaseUniformInitialization02();
 	//runExampleBaseUniformInitialization03();
@@ -47,5 +49,9 @@ int main()
 	//runExampleClassDelegateConstructor01();
 	//runExampleClassInheritingConstructor01();
 	//runExampleClassInheritingConstructor02();
+	//runExampleClassDestructor01();
+	//runExampleClassDestructor02();
+	//runExampleClassDestructor03();
+	runExampleBaseReference01();
 	return 0;
 }
