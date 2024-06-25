@@ -26,7 +26,8 @@ namespace ExampleTempleteExplicitSpecialization {
 		std::cout << "通用模板" << std::endl;
 		return m < n ? m : n;
 	}
-
+	//显示特化是指为函数模板提供一个特殊的实现，用于特定的模板参数。
+	//显示特化通常用于提供针对特定类型的高效实现或特定的行为
 	template <>
 	float calcMin<float>(float& m, float& n) {	//函数模板的全特化，函数模板没有偏特化
 		std::cout << "特化模板" << std::endl;

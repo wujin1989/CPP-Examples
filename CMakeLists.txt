@@ -25,6 +25,7 @@ set(SRCS
 	example-templete/example-templete-class.cpp
 	example-templete/example-templete-explicit-instantiation.cpp
 	example-templete/example-templete-explicit-specialization.cpp
+	example-templete/example-template-varargs.cpp
 	example-class/example-class-move-constructor.cpp
 	example-class/example-class-copy-constructor.cpp
 	example-class/example-class-delegate-constructor.cpp

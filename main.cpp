@@ -16,6 +16,7 @@
 #include "example-class/example-class-inheriting-constructor.h"
 #include "example-class/example-class-destructor.h"
 #include "example-base/example-base-reference.h"
+#include "example-templete/example-template-varargs.h"
 
 using namespace std;
 
@@ -52,6 +53,8 @@ int main()
 	//runExampleClassDestructor01();
 	//runExampleClassDestructor02();
 	//runExampleClassDestructor03();
-	runExampleBaseReference01();
+	//runExampleBaseReference01();
+	//runExampleBaseReference02();
+	//runExampleTemplateVarArgs01();
 	return 0;
 }
