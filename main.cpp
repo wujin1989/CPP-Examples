@@ -17,6 +17,8 @@
 #include "example-class/example-class-destructor.h"
 #include "example-base/example-base-reference.h"
 #include "example-templete/example-template-varargs.h"
+#include "example-thread/example-thread-thread.h"
+#include "example-base/example-base-lock.h"
 
 using namespace std;
 
@@ -56,5 +58,7 @@ int main()
 	//runExampleBaseReference01();
 	//runExampleBaseReference02();
 	//runExampleTemplateVarArgs01();
+	//runExampleThreadThread01();
+	runExampleBaseLock01();
 	return 0;
 }

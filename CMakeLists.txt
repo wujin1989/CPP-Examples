@@ -20,6 +20,7 @@ set(SRCS
 	example-base/example-base-new.cpp
 	example-base/example-base-uniform_initialization.cpp
 	example-base/example-base-reference.cpp
+	example-base/example-base-lock.cpp
 	example-templete/example-templete-function.cpp
 	example-templete/example-templete-member-function.cpp
 	example-templete/example-templete-class.cpp
@@ -31,6 +32,7 @@ set(SRCS
 	example-class/example-class-delegate-constructor.cpp
 	example-class/example-class-inheriting-constructor.cpp
 	example-class/example-class-destructor.cpp
+	example-thread/example-thread-thread.cpp
 )
 
 add_executable(CPP-Examples ${SRCS})
